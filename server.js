@@ -1,9 +1,9 @@
 // external packages
 const express = require('express');
 require('dotenv').config("./env");
-const test = require(`${__dirname}/test`);
-const WA = require(`${__dirname}/wati`);
-const airtable = require(`${__dirname}/update`)
+const test = require(`/home/site/wwwroot/test`);
+const WA = require(`/home/site/wwwroot/wati`);
+const airtable = require(`/home/site/wwwroot/update`)
 // const outro = require('./outroflow');
 
 const webApp = express();
