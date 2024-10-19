@@ -97,7 +97,7 @@ webApp.post('/web', async (req, res) => {
 webApp.get('/', (req, res) => {
     res.status(200).send('Pong');
 });
-
-webApp.listen(process.env.PORT, () => {
+const PORTON = process.env.PORT || 3000;
+webApp.listen(PORTON, () => {
     console.log(`Server is up and running at ${process.env.PORT}`);
 });
