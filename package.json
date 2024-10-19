@@ -19,7 +19,7 @@
   },
   "scripts": {
     
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Ramsha",
