@@ -93,7 +93,8 @@ webApp.post('/web', async (req, res) => {
 
 });
 
-webApp.get('/ping', (req, res) => {
+
+webApp.get('/', (req, res) => {
     res.status(200).send('Pong');
 });
 
