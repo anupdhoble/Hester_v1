@@ -1,9 +1,9 @@
 // external packages
 const express = require('express');
 require('dotenv').config("./env");
-const test = require(`/home/site/wwwroot/test`);
-const WA = require(`/home/site/wwwroot/wati`);
-const airtable = require(`/home/site/wwwroot/update`)
+const test = require(`./test`);
+const WA = require(`./wati`);
+const airtable = require(`./update`)
 // const outro = require('./outroflow');
 
 const webApp = express();
@@ -95,6 +95,9 @@ webApp.post('/web', async (req, res) => {
 
 
 webApp.get('/', (req, res) => {
+    res.status(200).send('Pong');
+});
+webApp.get('/test', (req, res) => {
     res.status(200).send('Pong');
 });
 const PORTON = process.env.PORT || 3000;
