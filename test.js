@@ -1,8 +1,8 @@
 var Airtable = require('airtable');
 require('dotenv').config();
-const WA = require(`${__dirname}/wati`);
-const us = require(`${__dirname}/update`);
-const sendContent = require(`${__dirname}/image`);
+const WA = require(`/home/site/wwwroot}/wati`);
+const us = require(`/home/site/wwwroot/update`);
+const sendContent = require(`/home/site/wwwroot/image`);
 // const outro = require('./outroflow');
 const { info } = require('pdfkit');
 
