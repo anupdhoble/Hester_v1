@@ -1,6 +1,6 @@
 const request = require('request-promise')
-const WA = require('./wati');
-const us = require('./update')
+const WA = require(`${__dirname}/wati`);
+const us = require(`${__dirname}/update`)
 var Airtable = require('airtable');
 require('dotenv').config("./env")
 
