@@ -100,7 +100,7 @@ webApp.get('/', (req, res) => {
 webApp.get('/test', (req, res) => {
     res.status(200).send('Pong');
 });
-const PORTON = process.env.PORT || 3000;
-webApp.listen(PORTON, () => {
+const PORT = process.env.PORT || 8080;
+webApp.listen(PORT, () => {
     console.log(`Server is up and running at ${process.env.PORT}`);
 });
