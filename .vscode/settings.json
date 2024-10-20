@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/4d12c07f-f31f-4152-a53e-42e7f736572e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/hesterv2",
+    "appService.deploySubpath": "."
+}
